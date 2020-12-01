@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.black{
+    opacity: 100%;
+    position: relative;
+}
+.over{
+    opacity: 70%;
+    width: 100%;
+    position: absolute;
+}
+.move{
+    padding: 0px;
+    position: absolute;
+}
+.white{
+    color: white;
+    padding: 30px;
+}
+.white2{
+    background-color: white;
+    color: red;
+}
+i{
+    color: white;
+}
+.jeve{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.line{
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+.big{
+    font-size: 20px;
+}
+.card2{
+    background: none;
+    border: none;
+    color: white;
+    padding-top: 150px;
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+.font2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.size{
+    font-size: 40px;
+    border: 2px solid blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.size2{
+    font-size: 30px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.turn:hover{
+    color: rgb(207, 207, 207);
+}
+.card3{
+    background: none;
+    color: white;
+    border: none;
+}
+.non{
+    border: none;
+}
+.black{
+    color: black;
+}
+
+.gray{
+    color: gray;
+}
+
+#border{
+    border-radius: 13px;
+}
+.size3{
+    color: rgb(78, 19, 241);
+    font-size: 40px;
+}
+.size4{
+    color: rgb(78, 19, 241);
+}
+.border2{
+    border: 2px solid rgba(78, 19, 241, 0.068);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:576px){
+    .black{
+        position: relative;
+    }
+    .top{
+        position: relative;
+    }
+    .top2{
+        padding-top: 30px;
+    }
+
+
+}
+@media screen and (min-width:577px){
+    .page{
+        position: relative;
+    }
+    .page2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: 1s;
+    }
+    .page:hover .page2{
+        height: 60%;
+    }
+    .page3{
+        white-space: nowrap; 
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+    .top{
+        padding-top: 100px;
+    }
+    .top2{
+        padding-top: 30px;
+    }
+   
+
+}
