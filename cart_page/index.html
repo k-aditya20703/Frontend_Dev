@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======================================================================================================================== -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- ======================================================================================================================== --><!-- ======================================================================================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- ======================================================================================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- ======================================================================================================================== -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- ======================================================================================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- ======================================================================================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- ======================================================================================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- ======================================================================================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- ======================================================================================================================== -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+<!-- ======================================================================================================================== -->
+    <link rel="stylesheet" href="/cart_page/css/main.css">
+<!-- ======================================================================================================================== -->    
+    <title class="title">Shopping cart | Flipkart.com</title>
+    <link rel = "icon" href =  
+    "/cart_page/images/flipkart_icon.jpg"
+            >
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+               
+                
+            <a id="navbar" class="navbar-brand" href="#"><img src="/cart_page/images/flipkart.PNG" alt="Flipkart"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input id="expand" class="form-control mr-sm-2" type="search" placeholder="Search for product,brands and more" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i id="white" class="fa fa-search"></i></button>
+                  </form>
+              <ul class="navbar-nav ">
+                <li class="nav-item ">
+                  <div  class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      <b>Log in</b>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#"> <i class="fa fa-user-circle"></i> My profile</a><hr>
+                      <a class="dropdown-item" href="#"> <i class="fa fa-bitcoin"></i> Super coin zone</a><hr>
+                      <a class="dropdown-item" href="#"> <i class="fa fa-plus-circle"></i> Flipkart plus zone</a><hr>
+                      <a class="dropdown-item" href="#"> <i><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 11.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                      </svg></i> Orders</a><hr>
+                      <a class="dropdown-item" href="#"> <i class="fa fa-heart"></i> Wishlists</a><hr>
+                      <a class="dropdown-item" href="#"> <i class="fa fa-comments"></i> My chats</a><hr>
+                      <a class="dropdown-item" href="#"> <i class="fa fa-power-off"></i> Log out</a>
+                    </div>
+                  </div>
+                </li>
+    
+              </ul>
+             
+            </div>
+        
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+             <div class="card pt-2">
+                 <div class="row non">
+                     <div class="col-sm-6">
+                      <h5 class="ml-5 mt-2">My Cart (13)</h5>
+                     </div>
+                     <div class="col-sm-6">
+                         <div class="row">
+                             <div class="col-sm-1 p-2 text-right">
+                              <i><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                  <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                </svg></i>
+                             </div>
+                             <div class="col-sm-3 p-2">
+                              <p class="gray"><b>Deliver to</b></p>
+                             </div>
+                             <div class="col-sm-8">
+                                 <div class="card noboard p-2">
+                                      <div  class="dropdown">
+                                      <h6 class="dropdown-toggle " data-toggle="dropdown">Baripada - 757092</h6>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"><p class="gray">Select from saved addresses:</p></a><br>
+                                        <a class="dropdown-item" href="#"><b>Aditya narayana khuntia,Ralab</b></a><br>
+                                        <a class="dropdown-item" href="#"><p class="gray line">Enter delivery pincode</p></a>
+                                      </div>
+                                    </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="card noboard">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="/cart_page/images/back_cover.jpeg" alt="...">
+                      <nav class="text-center" aria-label="Page navigation example">
+                        <ul class="pagination  justify-content-center right ">
+                          <li class="page-item ">
+                            <a class="page-link black" href="#" aria-label="Previous">
+                              <span aria-hidden="true">-</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link black" href="#">1</a></li>
+                          <li class="page-item">
+                            <a class="page-link black" href="#" aria-label="Next">
+                              <span aria-hidden="true">+</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="card-body">
+                        <h5 class="card-title">GadgetM Back Cover for Mi Redmi Note 5</h5>
+                        <p class="card-text"><small class="text-muted">Silver , shock proof</small></p>
+                        <h5 class="card-text red">Out Of Stock</h5>
+                        <div class="row  nopad">
+                          <div class="col-sm-6">
+                            <a class="change" href="#">SAVE FOR LATER</a>
+                          </div>
+                          <div class="col-sm-6">
+                            <a class="change" href="#">REMOVE</a>
+                          </div>
+                        </div>                   
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div><hr>
+          <br>
+          <div class="row">
+            <div class="card noboard">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <img src="/cart_page/images/aadi.jpeg" alt="...">
+                    <nav class="text-center" aria-label="Page navigation example">
+                      <ul class="pagination  justify-content-center right ">
+                        <li class="page-item ">
+                          <a class="page-link black" href="#" aria-label="Previous">
+                            <span aria-hidden="true">-</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link black" href="#">1</a></li>
+                        <li class="page-item">
+                          <a class="page-link black" href="#" aria-label="Next">
+                            <span aria-hidden="true">+</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Aadi Running Shoes For Men </h5>
+                      <p class="card-text"><small class="text-muted">Size:9,black</small></p>
+                      <h5 class="card-text red">Out Of Stock</h5>
+                      <div class="row  nopad">
+                        <div class="col-sm-6">
+                          <a class="change" href="#">SAVE FOR LATER</a>
+                        </div>
+                        <div class="col-sm-6">
+                          <a class="change" href="#">REMOVE</a>
+                        </div>
+                      </div>                   
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+        </div> <hr>
+        <br>
+        <div class="row">
+          <div class="card noboard">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="/cart_page/images/shirt.jpeg" alt="...">
+                  <nav class="text-center" aria-label="Page navigation example">
+                    <ul class="pagination  justify-content-center right ">
+                      <li class="page-item ">
+                        <a class="page-link black" href="#" aria-label="Previous">
+                          <span aria-hidden="true">-</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link black" href="#">1</a></li>
+                      <li class="page-item">
+                        <a class="page-link black" href="#" aria-label="Next">
+                          <span aria-hidden="true">+</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">FastColors Striped Men Round Neck White, Blue T-Shirt</h5>
+                    <p class="card-text"><small class="text-muted">White, blue strip</small></p>
+                    <h5 class="card-text"><i class="fa fa-rupee black"></i>379   <span class="green">81% Off 1 offer applied</span></h5>
+                    <div class="row  nopad">
+                      <div class="col-sm-6">
+                        <a class="change" href="#">SAVE FOR LATER</a>
+                      </div>
+                      <div class="col-sm-6">
+                        <a class="change" href="#">REMOVE</a>
+                      </div>
+                    </div>                   
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+        </div><hr> 
+    <br>
+        <div class="row">
+          <div class="card noboard">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="/cart_page/images/cover.jpeg" alt="...">
+                <nav class="text-center" aria-label="Page navigation example">
+                  <ul class="pagination  justify-content-center right ">
+                    <li class="page-item ">
+                      <a class="page-link black" href="#" aria-label="Previous">
+                        <span aria-hidden="true">-</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link black" href="#">1</a></li>
+                    <li class="page-item">
+                      <a class="page-link black" href="#" aria-label="Next">
+                        <span aria-hidden="true">+</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-sm-8">
+                <div class="card-body">
+                  <h5 class="card-title">GadgetM Back Cover for Mi Redmi Note 5</h5>
+                  <p class="card-text"><small class="text-muted">Blue , shock proof</small></p>
+                  <h5 class="card-text red">Out Of Stock</h5>
+                  <div class="row  nopad">
+                    <div class="col-sm-6">
+                      <a class="change" href="#">SAVE FOR LATER</a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="change" href="#">REMOVE</a>
+                    </div>
+                  </div>                   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card shade">
+          <div class="card-body text-right">
+            <button class="btn btn-danger px-5 py-2 orange">Place Order</button>
+          </div>
+        </div> <br>
+          </div>
+          
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-sm-3 non">
+            <div class="card">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><p class="text-muted">PRICE DETAILS</p></li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p>Price</p>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <p><i class="fa fa-rupee black"></i>10,000</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p>Discount</p>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <p class="green">-<i class="fa fa-rupee green"></i>3,000</p>
+                    </div>
+                  </div>
+                  <div class="row dot">
+                    <div class="col-sm-6">
+                      <p>Delivery</p>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <p class="black"><i class="fa fa-rupee black"></i>50</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p><b>Total</b></p>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                      <p class="black"><i class="fa fa-rupee black"></i><b>7,050</b></p>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item green">You will save <i class="fa fa-rupee green"></i> 13,673 on this order</li>
+              </ul>
+            </div><br>
+            <div>
+                <p><i class="fa fa-shield text-muted shield"></i> <b class="text-muted">Safe and Secure Payments.Easy returns.100% Authentic products.</b></p>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          
+      </div>
+
+
+    </div>
+    <hr>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row ">
+          <div class="col-sm-5">
+           <p class="text-muted middle">Policies: <span><a class="text-muted" href="#">Returns Policy</a></span> | <span><a class="text-muted" href="#">Security</a></span> | <span><a class="text-muted" href="#">Privacy</a></span> | <span><a class="text-muted" href="#">Infringement</a></span></p>
+          </div>
+          <div class="col-sm-3">
+            <p class="middle">&copy; 2007-2020 Flipkart.com</p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-muted middle">Need help? Visit the <span><a href="#">Help Center</a></span> or <span><a href="#">Contact</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

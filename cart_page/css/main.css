@@ -1,0 +1,105 @@
+#expand{
+    width: 900px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.dropdown-menu a{
+    color:  rgb(0, 0, 0);
+    display: block;
+   
+   
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+}
+i{
+    color: rgb(37, 125, 212);
+}
+#white{
+    color: white;
+}
+#white:hover{
+    color: rgb(37, 125, 212);
+}
+#navbar{
+    margin-left: 300px;
+}
+.red{
+    color: red;
+}
+.gray{
+    color: gray;
+}
+.line{
+    border-bottom: 2px solid rgb(37, 125, 212);
+}
+.change{
+    color: black;
+}
+.change:hover{
+    color:rgb(37, 125, 212) ;
+    text-decoration: none;
+}
+.noboard{
+    border: none;
+}
+.black{
+    color: black;
+}
+.green{
+    color: green;
+}
+.orange{
+    background-color: orangered;
+    border: none;
+}
+.dot{
+    border-bottom: 1px dashed black;
+}
+.shade{
+    box-shadow: 1px 1px  10px black;
+}
+.title{
+    background-image: url("//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fk-logo_f64bb3.png");
+    background-repeat: no-repeat;
+}
+.shield{
+    font-size: 20px;
+}
+
+@media screen and (max-width:576px){
+    #expand{
+        width: 270px;
+    }
+    #navbar{
+        margin-left: 0px;
+    }
+    .non{
+        display: none;
+    }
+    .nopad{
+        padding-top: 0px;
+    }
+    .right{
+       float: left;
+       padding-left: 50px;
+    }
+    .middle{
+        text-align: center;
+    }
+}
+@media screen and (min-width:577px){
+    .nopad{
+        padding-top: 35px;
+    }
+    
+}
